@@ -1,7 +1,7 @@
 export default {
   async fetch(request, env) {
     const inputs = {
-      prompt: "Server Automation",
+      prompt: "Server Fire",
     };
 
     const response = await env.AI.run(
